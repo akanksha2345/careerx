@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+         filter of array
+        </title>
+
+        <h1>
+            filtering of elements in array using filter
+        </h1>
+    </head>
+
+
+<body>
+    <script>
+    
+     var ages=[20,45,31,39,17,19,40,34,18];
+     document.writeln("original array:"+ages+"<br><br>");
+
+     document.writeln(ages.filter(checkAdult));
+      
+       
+    function checkAdult(age) {
+  return age >= 18;
+}  
+
+
+
+
+
+    </script>
+</body>
+</html>

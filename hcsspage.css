@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width:100%;
+    height:100%;
+    background-color: white;
+    position: absolute;
+    top:0;
+    left:0;
+    
+}
+
+.rightmain{
+    width:100%;
+    height:100%;
+    position: relative;
+    top:0;
+    left:0;
+    
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 150px;
+    margin-top:5px;
+    margin-bottom: 25px;
+    margin-left:10px;
+    margin-right: 10px;
+    
+}
+img{
+    width:100%;
+    height:auto;
+    display:table;
+}
